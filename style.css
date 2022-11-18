@@ -6,12 +6,12 @@
 }
 
 body {
-    background: #092236;
+    background: #08161c;
     overflow: hidden;
 }
 
 nav {
-    background: #021222;
+    background: #182b35;
     height: 80px;
     position: relative;
 }
@@ -83,7 +83,7 @@ nav {
         position: absolute;
         display: flex;
         flex-direction: column;
-        background: #021222;
+        background: #182b35;
         text-align: center;
         overflow: hidden;
         height: calc(100vh - 80px);
