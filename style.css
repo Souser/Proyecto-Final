@@ -6,12 +6,12 @@
 }
 
 body {
-    background: #08161c;
+    background: #FFFF;
     overflow: hidden;
 }
 
 nav {
-    background: #182b35;
+    background: #000;
     height: 80px;
     position: relative;
 }
@@ -32,14 +32,14 @@ nav {
 }
 
 .container-logo h2 {
-    color: #95bdd8;
+    color: #d0a4ab;
     font-weight: 300;
     font-size: 35px;
     letter-spacing: 2px;
 }
 
 .container-logo h2 span {
-    color: #0590ec;
+    color: #ffa4ab;
     font-weight: 700;
 }
 
@@ -57,7 +57,7 @@ nav {
 }
 
 .links .link a:hover {
-    color: #487abb;
+    color: #a66263;
 }
 
 .toggle {
@@ -83,7 +83,7 @@ nav {
         position: absolute;
         display: flex;
         flex-direction: column;
-        background: #182b35;
+        background: #000;
         text-align: center;
         overflow: hidden;
         height: calc(100vh - 80px);
@@ -98,7 +98,7 @@ nav {
     }
 
     .links .link:hover {
-        background: #051c38;
+        background: #d0a4ab;
     }
     
 }
