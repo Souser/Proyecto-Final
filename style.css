@@ -9,11 +9,10 @@ body {
     background: #FFFF;
     overflow: hidden;
 }
-.fondoHeadHome { height: 400px;}
-.fondoHeadHome>h1 { font-family: 'Lato', sans-serif; font-size: 35px; font-weight: bold; color: white; text-shadow: 0 0 1em black;  padding-bottom: 0px; padding-top: 140px;}
-.fondoHeadHome>p  { font-family: 'Lato', sans-serif; font-size: 25px; color:white; text-shadow: 0 0 1em black; padding-top: 10px; }
-.fondoHeadHome    { /*background-image: url("banner-1920x400-1.jpg");*/ background-position: center;  background-size: 1920px 400px;}
+#intro{
+    familia de fuentes: 'Satisfacer', cursiva;
 
+}
 
 video { 
     position: absolute;
