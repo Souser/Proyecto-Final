@@ -8,11 +8,11 @@
 body {
     background: #FFFF;
     overflow: hidden;
-}
-#intro{
     familia de fuentes: 'Satisfacer', cursiva;
-
+    color:blue;
+    font-weight: 500;
 }
+
 
 video { 
     position: absolute;
