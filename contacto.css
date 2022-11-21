@@ -1,0 +1,33 @@
+#instagram{
+    margin-left: 200px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.boton{
+    margin-left: 40px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+  
+}
+button{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 100;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #8b1077;
+    border-radius: 6px;
+    border: 2px solid #d64a80;
+    
+   
+}
+.Whatsaap{
+    margin-left: 200px;
+
+}
+h1{
+    font-family: 'Satisfy', cursive;   
+
+}
