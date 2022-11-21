@@ -1,0 +1,15 @@
+*{
+    background-color: rgb(250, 235, 215);
+ 
+}
+body{
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+h3, h1{
+    font-family: 'Satisfy', cursive;   
+    color: rgb(19, 233, 19);
+
+}
