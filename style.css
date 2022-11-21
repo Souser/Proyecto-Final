@@ -2,29 +2,45 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+   
 }
 
 body {
+    font-family: sans-serif;
     background: #FFFF;
     overflow: hidden;
-    familia de fuentes: 'Satisfacer', cursiva;
-    color:blue;
     font-weight: 500;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+img{
+    margin-left: 200px;
 }
 
+#intro{
+    font-family: 'Satisfy', cursive;   
 
-video { 
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    height: inherit;
-    z-index: -100;
-    transform: translateX(-50%) translateY(-50%);
-  	transition: 1s opacity;
+}
+#h2{
+    color: #000;
+    font-size: 20px;
+    margin-right: 400px;
+}
+h1{
+    background: -webkit-linear-gradient(yellow,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: tomato;  
+}
+video{
+    position: relative;
+    autoplay;
+    transition: 1s opacity;
+   
 }
 
 nav {
+    margin-bottom: 60px;
     background: #000;
     height: 80px;
     position: relative;
