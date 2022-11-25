@@ -1,0 +1,33 @@
+
+h1{
+	display: inline-block;
+	color: #ebe6ea;
+	
+}
+#container-logo{
+	display: flex;
+	align-items: flex-end;
+}
+
+h1#Container-contenido{
+	color: black;
+}
+
+
+.container-cards{
+	display: flex;
+	margin-top: 70px;
+	width: max-width;
+	height: 200px;
+	justify-content: center;
+	align-items: center;
+	justify-content: space-around;
+
+
+
+}
+#vid-home{
+	display: flex;
+	background-color: black;
+	justify-content: center;
+}

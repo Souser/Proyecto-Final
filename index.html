@@ -4,45 +4,61 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-    <script src="/script.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    
+    
+    <script src="/js/script.js"></script>
+    
     <title>Proyecto Final</title>
 </head>
 <body>
-    <h1>Bonappetit</h1>
-
-    <nav>
-        <a href="/index.html">Inicio</a>
-        <a href="/info.html">Info</a>
-        <a href="/blog.html">Blog</a>
-        <a href="/products.html">Productos</a>
-        <a href="/contact.html">Contacto</a>
-        <div class="animation start-home"></div>
-    </nav>
-
-        <div id="inicio">
-            <div class="div-inicio">
-                <h1>Prueba</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores cupiditate aspernatur excepturi culpa eum necessitatibus. Ea, blanditiis, excepturi corporis dolore quod, facere ipsa reprehenderit nulla magni ducimus quisquam impedit laudantium?</p>
+    
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">BonAppettit</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">BonAppettit</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="div-inicio">
-                <h1>Prueba</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores cupiditate aspernatur excepturi culpa eum necessitatibus. Ea, blanditiis, excepturi corporis dolore quod, facere ipsa reprehenderit nulla magni ducimus quisquam impedit laudantium?</p>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/products.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/blog.html">Sobre Nosotros</a>
+                  </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Contactanos
+                  </a>
+                  <ul class="dropdown-menu dropdown-menu-dark">
+                    <li><a class="dropdown-item" href="https://www.instagram.com/bonappetit_neiva/"><i class="bi bi-instagram"></i> Instagram</a></li>
+                    <li><a class="dropdown-item" href="#"><i class="bi bi-whatsapp"></i> Whatsapp</a></li>
+                  </ul>
+                </li>
+              </ul>
+              
             </div>
+          </div>
         </div>
-
-        <div id="vid-inicio">
-
-            <div class="div-inicio">
-                <h1>Prueba</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores cupiditate aspernatur excepturi culpa eum necessitatibus. Ea, blanditiis, excepturi corporis dolore quod, facere ipsa reprehenderit nulla magni ducimus quisquam impedit laudantium?</p>
-            </div>
-            <div class="div-inicio">
-                <video src="/media/video1.mp4" autoplay loop></video>
-            </div>
-        </div>
+      </nav>
+      <br>
+      <div id="vid-home">
+        <video src="/media/video1.mp4" width="800px" autoplay loop></video>
+      </div>
 </body>
 </html>
