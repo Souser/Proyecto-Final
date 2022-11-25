@@ -31,3 +31,12 @@ h1#Container-contenido{
 	background-color: black;
 	justify-content: center;
 }
+
+#Info-inicio{
+	display: flex;
+	font-family: 'Dancing Script', cursive;
+	width: max-width;
+	background-color: #f8b7bb;
+	color: black;
+	justify-content: center;
+}
